@@ -1,0 +1,84 @@
+body {
+	background: #E8E8E7;
+}
+
+.pull-right img {
+	height:40px;
+	width: 40px;
+	border-radius: 20px;
+}
+
+.header {
+	background: #049DFE;
+	padding: 15px;
+}
+
+
+
+/***** side-nav ******/
+.side-nav {
+	
+	border-right: 2px solid red;
+}
+
+
+/***** main-content ******/
+
+.main-head {
+	background: #184B6A;
+	margin-top: 8px;
+	height: 40px;
+	font-size: 20px;
+	color: #ffffff;
+	padding: 5px 8px;
+}
+
+.info {
+	margin-top: 10px;
+	border: 1px solid red;
+}
+
+label {
+	margin-left: 8px;
+}
+
+.info form {
+	margin: 10px;
+}
+
+.desis ,.medicine {
+	margin: 10px;
+}
+
+.medicine, .med-hed {
+	margin: 10px;
+	border: 1px solid red;
+	
+}
+
+strong {
+	font-size: 18px;
+	margin-top: 9px;
+}
+
+.test-adv {
+	margin-bottom: 20px;
+}
+
+.test-box {
+	border: 1px solid red;
+	margin-top: 12px;
+}
+
+.adv-test {
+	margin: 12px;
+}
+
+.advice { 
+	border: 1px solid red; 
+	 margin-top: 12px;
+} 
+
+.sub {
+	margin-top: 10px;
+}
