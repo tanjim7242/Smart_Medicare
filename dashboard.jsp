@@ -9,10 +9,10 @@
 <head>
 <title><spring:message code="title.app"/></title>
 
-<%@ include file="../css.jsp"%>
+<%@ include file="css.jsp"%>
 
 </head>
-<%@ include file="../headerAndSideManu.jsp"%>
+<%@ include file="headerAndSideManu.jsp"%>
 
 
         <div class="wrapper">
@@ -37,6 +37,6 @@
                 </div>
 
   
-<%@ include file="../javascript.jsp"%>
+<%@ include file="javascript.jsp"%>
 	 
 </html>
