@@ -127,7 +127,41 @@
                                 </div>
                                 
                                 
-                                
+                                  <div class="m-h-50"></div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="table-responsive">
+                                            <table class="table m-t-30">
+                                                <thead>
+                                                <tr>
+                                                    <th>Test</th>
+                                                    <th>Description</th>
+                                                    
+                                                </tr></thead>
+                                                <tbody>
+                                             
+									<c:forEach items="${test}" var="report">
+										<tr>
+												<td>${report.test}</td>
+												<td>${report.testdis}</td>
+												
+										<td>		 
+						
+							</div>
+					
+  
+						   </td>
+						   
+						   
+						
+										</tr>
+										
+
+									</c:forEach>
+
+                                                </tbody>
+                                            </table>
+                                        </div>
                                     </div>
                                 </div>
                                 
