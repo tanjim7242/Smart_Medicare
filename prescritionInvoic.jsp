@@ -85,43 +85,7 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="table-responsive">
-                                            <table class="table m-t-30">
-                                                <thead>
-                                                <tr>
-                                                    <th>Type</th>
-                                                    <th>Medicine Name </th>
-                                                    <th>MG/ML</th>
-                                                    <th>Duration</th>
-                                                    <th>Days</th>
-                                                    <th>Comment</th>
-                                               	</tr>
-								</thead>
-								<tbody>
-									<c:forEach items="${medicine}" var="report">
-										<tr>
-												<td>${report.medicine_type}</td>
-												<td>${report.medicine_name}</td>
-												<td>${report.medicine_mg}</td>
-												<td>${report.medicine_dose}</td>
-													<td>${report.medi_duration}</td>
-												<td>${report.medi_comments}</td>
-										<td>		 
-						
-							</div>
-					
-  
-						   </td>
-						   
-						   
-						
-										</tr>
-										
-
-									</c:forEach>
-
-								</tbody>
-							</table>
-							
+                                         
                                         </div>
                                     </div>
                                 </div>
@@ -136,6 +100,9 @@
                                                 <tr>
                                                     <th>Test</th>
                                                     <th>Description</th>
+                                                    <th>Status</th>
+                                                    <th>Upload Report</th>
+                                                      <th>Send</th>
                                                     
                                                 </tr></thead>
                                                 <tbody>

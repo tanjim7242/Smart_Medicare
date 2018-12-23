@@ -15,35 +15,24 @@
 <%@ include file="../headerAndSideManu.jsp"%>
 
 
-<div class="wrapper">
+        <div class="wrapper">
             <div class="container">
 
-  <div class="container-fluid">
-
- <form:form action="${pageContext.request.contextPath}${actionval}"  method="POST"	commandName="${productVOval}">
                 <!-- Page-Title -->
                 <div class="row">
-             
                     <div class="col-sm-12">
-                        <div class="page-title-box">
-                            <div class="btn-group pull-right">
-                                <ol class="breadcrumb hide-phone p-0 m-0">
-                                    <li class="breadcrumb-item"><a href="#">Minton</a></li>
-                                    <li class="breadcrumb-item active">Dashboard</li>
-                                </ol>
-                            </div>
-                            <h4 class="page-title">Welcome !</h4>
+                        <div class="widget-simple-chart text-right card-box">
+                            <div class="circliful-chart circliful" data-dimension="90" data-text="35%" data-width="5" data-fontsize="14" data-percent="35" data-fgcolor="#5fbeaa" data-bgcolor="#ebeff2" style="width: 90px;"><span class="circle-text" style="line-height: 90px; font-size: 14px;">35%</span><canvas width="90" height="90"></canvas></div>
+                            <h3 class="text-success counter">2562</h3>
+                            <p class="text-muted text-nowrap">Total Sales today</p>
                         </div>
                     </div>
+                    
                 </div>
-             
-                <!-- end page title end breadcrumb -->
+                
+                    
 
-
- 	</form:form>
-
-
-            </div>
+            
                 </div>
                 </div>
 
@@ -51,15 +40,3 @@
 <%@ include file="../javascript.jsp"%>
 	 
 </html>
-
- <script type="text/javascript">
-
-$( document ).ready(function()
-		{
-	var currentColor = localStorage.getItem('bgcolor');
-	  console.log( "" );
-	  window.location = "${pageContext.request.contextPath}/patient/confirmapproment/"+currentColor;
-
-});
-</script>
-	
